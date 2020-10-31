@@ -10,10 +10,14 @@ import React, {Component} from 'react';
 import {StyleSheet, View, Text} from 'react-native';
 
 class App extends Component {
+  state = {
+    sampleText: 'sample text'
+  }
   render() {
     return (
       <View style={styles.background}>
-        <Text>텍스트</Text>
+        {/* <Text>{this.state.sampleText}</Text> */}
+        <Text>{`${this.state.sampleText}`}</Text>
       </View>
     );
   }

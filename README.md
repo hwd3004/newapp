@@ -19,3 +19,15 @@
 ---
 
 # 2. 화면 출력 맛보기
+
+---
+
+# State 01
+
+1. <Text>{this.state.sampleText}</Text>
+
+    강의에선 이렇게 하여 state의 문자열을 출력하는데 나는 안된다
+
+2. <Text>{`${this.state.sampleText}`}</Text>
+
+    나는 이렇게 하니 출력되었다
