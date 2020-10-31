@@ -31,3 +31,7 @@
 2. <Text>{`${this.state.sampleText}`}</Text>
 
     나는 이렇게 하니 출력되었다
+
+---
+
+# TouchEvent 02
